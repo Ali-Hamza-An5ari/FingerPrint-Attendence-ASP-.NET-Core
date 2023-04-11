@@ -59,7 +59,6 @@ public class FingerPrintDal: IFingerPrintDal
                 return result > 0;
     }
 
-
     public async Task<FingerPrint> UpdateFingerPrintAsync(FingerPrintInp model)
     {
         var parameters = new DynamicParameters();
