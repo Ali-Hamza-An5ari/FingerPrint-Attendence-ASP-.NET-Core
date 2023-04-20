@@ -3,6 +3,7 @@ using Entities.Model.FingerPrint.View;
 
 namespace KonnectApiv4.Application.IDal.IWorkBoardDal;
 
+
 public interface IFingerPrintDal
 {
     Task<FingerPrint> AddFingerPrintAsync(FingerPrintInp model);
